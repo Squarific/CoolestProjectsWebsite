@@ -12,7 +12,8 @@ Author URL: http://shapebootstrap.net
 *******Typography******
 **************************/
 
-@major_color: #45aed6;
+@major_color: #8cc5a2;
+@major_color_dark: #5b644f;
 @text_color: #64686d;
 
 body {
@@ -22,6 +23,13 @@ body {
   font-weight: 400;
   color: @text_color;
   line-height: 26px;
+}
+
+body.nl *[lang=en] {
+  display: none;
+}
+body.en *[lang=nl] {
+  display: none;
 }
 
 h1,
@@ -55,6 +63,7 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
+/*
 .gradiant {
   background-image: -moz-linear-gradient( 90deg, rgb(44,170,179) 0%, rgb(44,140,179) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(44,170,179) 0%, rgb(44,140,179) 100%);
@@ -66,7 +75,19 @@ hr {
   background-image: -webkit-linear-gradient( 4deg, rgb(44,170,179) 0%, rgb(44,140,179) 100%);
   background-image: -ms-linear-gradient( 4deg, rgb(44,170,179) 0%, rgb(44,140,179) 100%);
 }
+*/
 
+.gradiant {
+  background-image: -moz-linear-gradient( 90deg, @major_color 0%, @major_color 100%);
+  background-image: -webkit-linear-gradient( 90deg, @major_color 0%, @major_color 100%);
+  background-image: -ms-linear-gradient( 90deg, @major_color 0%, @major_color 100%);
+}
+
+.gradiant-horizontal {
+  background-image: -moz-linear-gradient( 4deg, @major_color 0%, @major_color 100%);
+  background-image: -webkit-linear-gradient( 4deg, @major_color 0%, @major_color 100%);
+  background-image: -ms-linear-gradient( 4deg, @major_color 0%, @major_color 100%);
+}
 
 //Section title
 .section-header {
@@ -476,8 +497,12 @@ ul.nostyle {
         &.active {
           background: @major_color;
           color: #fff;
+          /*
           box-shadow: 0 -3px 0 0 #318daf inset;
           -webkit-box-shadow: 0 -3px 0 0 #318daf inset;
+          */
+          box-shadow: 0 -3px 0 0 @major_color_dark inset;
+          -webkit-box-shadow: 0 -3px 0 0 @major_color_dark inset;
         }
 
         &.active:after {
@@ -488,7 +513,7 @@ ul.nostyle {
           margin-left: -10px;
           border-width: 10px;
           border-style: solid;
-          border-color: #318daf transparent transparent transparent;
+          border-color: @major_color_dark transparent transparent transparent;
         }
 
       }
@@ -1055,15 +1080,17 @@ ul.nostyle {
 #contact {
   position: relative;
   overflow: hidden;
+  
   .container-wrapper {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: fade(@major_color, 30%);
+    background: fade(@major_color, 40%);
     z-index: 1;
   }
+
 
   .contact-form {
     background: rgba(255, 255, 255, 0.8);

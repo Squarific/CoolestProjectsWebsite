@@ -339,10 +339,10 @@ ul.nostyle i {
 #cta2 h2 > span {
   color: #8cc5a2;
 }
-#features {
+#what {
   padding: 100px 0;
 }
-#features .media.service-box:first-child {
+#what .media.service-box:first-child {
   margin-top: 80px;
 }
 #services {
@@ -725,6 +725,15 @@ ul.nostyle i {
   border-radius: 100px;
   margin-bottom: 20px;
 }
+#register {
+  padding: 100px 0 50px;
+}
+#sponsors {
+  padding: 100px 0 50px;
+}
+#info {
+  padding: 100px 0 50px;
+}
 #pricing {
   padding: 100px 0 70px;
 }
@@ -795,15 +804,15 @@ ul.nostyle i {
 #pricing ul.pricing.featured li.plan-header .plan-name {
   color: #fff;
 }
-#get-in-touch {
+#where {
   padding: 100px 0 50px;
   background-image: -moz-linear-gradient(90deg, #8cc5a2 0%, #8cc5a2 100%);
   background-image: -webkit-linear-gradient(90deg, #8cc5a2 0%, #8cc5a2 100%);
   background-image: -ms-linear-gradient(90deg, #8cc5a2 0%, #8cc5a2 100%);
   color: #fff;
 }
-#get-in-touch h1,
-#get-in-touch h2 {
+#where h1,
+#where h2 {
   color: #fff;
 }
 #blog {

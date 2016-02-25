@@ -59,8 +59,8 @@
                     </button>
                     
                     <div class="navbar-brand">
-                        <button class="btn" onclick="document.body.className='homepage nl'">NL</button>
-                        <button class="btn" onclick="document.body.className='homepage en'">EN</button>
+                        <button class="btn" onclick="document.body.className='homepage nl';new WOW().init();">NL</button>
+                        <button class="btn" onclick="document.body.className='homepage en';new WOW().init();">EN</button>
                         <!--<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>-->
                     </div>
                     
@@ -100,42 +100,55 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6">
-                                <div class="carousel-content">
+                                <div class="carousel-content" lang="nl">
                                     <h2>
                                         Coolest Projects<br>
                                         <span>een technologiebeurs voor jonge mensen</span>
                                     </h2>
-                                    <a class="btn btn-primary btn-lg" href="#register">Doe mee</a>
+                                    <a class="btn btn-primary btn-lg" href="#register">Doe mee!</a>
+                                </div>
+                                <div class="carousel-content" lang="en">
+                                    <h2>
+                                        Coolest Projects<br>
+                                        <span>a technology event for young people</span>
+                                    </h2>
+                                    <a class="btn btn-primary btn-lg" href="#register">Join us!</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div><!--/.item-->
+            </div>
+            
              <div class="item" style="background-image: url(images/slider/bg2.jpg);">
                 <div class="slider-inner">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h2>Zondag 29 mei</h2>
+                                <div class="carousel-content" lang="nl">
+                                    <h2>Zondag 29 mei 2016</h2>
                                     <p>Bibliotheek Lier (Zaal Colibrant) - Deensestraat 6 - 2500 Lier</p>
                                     <a class="btn btn-primary btn-lg" href="#register">Doe mee</a>
+                                </div>
+                                <div class="carousel-content" lang="en">
+                                    <h2>Sunday May 29th 2016</h2>
+                                    <p>Lier Public library (entrance room Colibrant) - Deensestraat 6 - 2500 Lier</p>
+                                    <a class="btn btn-primary btn-lg" href="#register">Join us!</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div><!--/.item-->
-        </div><!--/.owl-carousel-->
-    </section><!--/#main-slider-->
+            </div>
+        </div>
+    </section>
 
 
 
 
     <section id="cta" class="wow fadeIn">
         <div class="container">
-            <div class="row">
+            <div class="row" lang="nl">
                 <div class="col-sm-6">
                     <h2>Voor wie?</h2>
                     <p>
@@ -151,17 +164,43 @@
                         Bovendien staan er leuke awards klaar!</p>
                 </div>
             </div>
+             <div class="row" lang="en">
+                <div class="col-sm-6">
+                    <h2>For who?</h2>
+                    <p>
+                        If you're under 18 and love to make creative tech-stuff
+                        then "Coolest Projects" is totally for you!
+                        This event is designed for you to show the cool things you've made.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <h2>Why?</h2>
+                    <p>
+                        Building cool digital things is fun. Sharing them with the world is even more awesome!
+                        And there are great prizes for you to win.
+                    </p>
+                </div>
+            </div>
         </div>
-    </section><!--/#cta-->
+    </section>
 
 
 
     <section id="what">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header" lang="nl">
                 <h2 class="section-title text-center wow fadeInDown">Wat?</h2>
-                
-                <p class="text-center wow fadeInDown">Op Coolest Projects tonen we projecten die deelnemers zelf gebouwd hebben. Maak dus zelf:</p>
+                <p class="text-center wow fadeInDown">
+                    Op Coolest Projects tonen we projecten die deelnemers zelf gebouwd hebben.
+                    Maak dus zelf:
+                </p>
+            </div>
+             <div class="section-header" lang="en">
+                <h2 class="section-title text-center wow fadeInDown">What?</h2>
+                <p class="text-center wow fadeInDown">
+                    Coolest Projects is all about showcasing the technology projects made by the
+                    young people. So run to your garage and make stuff:
+                </p>
             </div>
             <div class="row">
                 <div class="col-sm-6 wow fadeInLeft">
@@ -169,9 +208,13 @@
                         <div class="pull-left">
                             <i class="fa fa-battery-quarter"></i>
                         </div>
-                        <div class="media-body">
+                        <div class="media-body" lang="nl">
                             <h4 class="media-heading">Elektronica brouwsels</h4>
-                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="media-body" lang="en">
+                            <h4 class="media-heading">Electronic-thingies</h4>
+                            <p>&nbsp;</p>
                         </div>
                     </div>
 
@@ -179,29 +222,43 @@
                         <div class="pull-left">
                             <i class="fa fa-reddit-alien"></i>
                         </div>
-                        <div class="media-body">
+                        <div class="media-body" lang="nl">
                             <h4 class="media-heading">Robots</h4>
-                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="media-body" lang="en">
+                            <h4 class="media-heading">Robots</h4>
+                            <p>&nbsp;</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6">
+                    
                      <div class="media service-box wow fadeInRight">
                         <div class="pull-left">
                             <i class="fa fa-gamepad"></i>
                         </div>
-                        <div class="media-body">
+                        <div class="media-body" lang="nl">
                             <h4 class="media-heading">Spelletjes</h4>
-                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="media-body" lang="en">
+                            <h4 class="media-heading">Games</h4>
+                            <p>&nbsp;</p>
                         </div>
                     </div>
+                    
                     <div class="media service-box wow fadeInRight">
                         <div class="pull-left">
                             <i class="fa fa-bug"></i>
                         </div>
-                        <div class="media-body">
+                        <div class="media-body" lang="nl">
                             <h4 class="media-heading">Geniale software</h4>
-                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="media-body" lang="en">
+                            <h4 class="media-heading">Brilliant software</h4>
+                            <p>&nbsp;</p>
                         </div>
                     </div>
                     
@@ -209,11 +266,16 @@
                         <div class="pull-left">
                             <i class="fa fa-question-circle"></i>
                         </div>
-                        <div class="media-body">
+                        <div class="media-body" lang="nl">
                             <h4 class="media-heading">Of verras ons!</h4>
-                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                            <p>Laat je creativiteit niet begrenzen door ons! Heb je zelf een tof technologie-idee? Laat je volledig gaan!</p>
+                        </div>
+                        <div class="media-body" lang="en">
+                            <h4 class="media-heading">Or surprise us!</h4>
+                            <p>Don't let us limit your creativity, and create your own tech-idea!</p>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -223,403 +285,33 @@
 
     <section id="cta2">
         <div class="container">
-            <div class="text-center">
+            <div class="text-center" lang="nl">
                 <h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">Een <span>leuke namiddag</span> vol technologie</h2>
                 <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
                     Je hoeft helemaal geen raket-ingenieur te zijn om mee te doen (maar het mag natuurlijk wel ;-)<br>
                     Als je het maar leuk vindt om dingen te bouwen, hoe klein ze ook lijken!<br>
-                    Ook als je projectje nog niet helemaal af is: kom het gerust laten zien. Wij zijn vooral benieuwd naar al jullie creatieve talent.</p>
+                    Ook als je projectje nog niet helemaal af is: kom het gerust laten zien en vertel ons erover.<br>
+                    Coolest Projects draait vooral om het plezier dat je had en de ervaring die je opdeed bij het bedenken, bouwen en deelnemen.</p>
+                <img class="img-responsive wow fadeIn" src="images/cta2/cta2-img.png" alt="" data-wow-duration="300ms" data-wow-delay="300ms">
+            </div>
+            <div class="text-center" lang="en">
+                <h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">A <span>fun afternoon</span> loaded with technology</h2>
+                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                    You don't need to be a rocket scientist to participate (but you can of course if you are one ;-)<br>
+                    As long as you just enjoy building technology stuff, no matter how small it seems!<br>
+                    Please don’t worry if you have not fully completed your project,
+                    bring it and you can show the parts that are working.<br>
+                    The Coolest Projects event is all about the experience and learning gained from participating and showcasing what you’ve created.
+                </p>
                 <img class="img-responsive wow fadeIn" src="images/cta2/cta2-img.png" alt="" data-wow-duration="300ms" data-wow-delay="300ms">
             </div>
         </div>
     </section>
 
 
-
-    <!--
-    <section id="services" >
-        <div class="container">
-
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Our Services</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-
-            <div class="row">
-                <div class="features">
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-line-chart"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">UX design</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-cubes"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">UI design</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-pie-chart"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">SEO Services</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                            </div>
-                        </div>
-                    </div>
-                
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-bar-chart"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">iOS App</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-language"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Android App</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
-                        <div class="media service-box">
-                            <div class="pull-left">
-                                <i class="fa fa-bullseye"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Win App</h4>
-                                <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
-
-    <!--
-    <section id="portfolio">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Our Works</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-
-            <div class="text-center">
-                <ul class="portfolio-filter">
-                    <li><a class="active" href="#" data-filter="*">All Works</a></li>
-                    <li><a href="#" data-filter=".creative">Creative</a></li>
-                    <li><a href="#" data-filter=".corporate">Corporate</a></li>
-                    <li><a href="#" data-filter=".portfolio">Portfolio</a></li>
-                </ul>
-            </div>
-
-            <div class="portfolio-items">
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/01.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Portfolio Item 1</h3>
-                            Lorem Ipsum Dolor Sit
-                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item corporate portfolio">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/02.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Portfolio Item 2</h3>
-                            Lorem Ipsum Dolor Sit
-                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/03.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Portfolio Item 3</h3>
-                            Lorem Ipsum Dolor Sit
-                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item corporate">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/04.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Portfolio Item 4</h3>
-                            Lorem Ipsum Dolor Sit
-                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative portfolio">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/05.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Portfolio Item 5</h3>
-                            Lorem Ipsum Dolor Sit
-                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item corporate">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/06.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Portfolio Item 5</h3>
-                            Lorem Ipsum Dolor Sit
-                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative portfolio">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/07.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Portfolio Item 7</h3>
-                            Lorem Ipsum Dolor Sit
-                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item corporate">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/08.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Portfolio Item 8</h3>
-                            Lorem Ipsum Dolor Sit
-                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
-
-
-    
-
-
-    
-    
-
-
-    
-    
-
-<!--
-    <section id="animated-number">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Fun Facts</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-
-            <div class="row text-center">
-                <div class="col-sm-3 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
-                        <div class="animated-number" data-digit="2305" data-duration="1000"></div>
-                        <strong>CUPS OF COFFEE CONSUMED</strong>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-                        <div class="animated-number" data-digit="1231" data-duration="1000"></div>
-                        <strong>CLIENT WORKED WITH</strong>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <div class="animated-number" data-digit="3025" data-duration="1000"></div>
-                        <strong>PROJECT COMPLETED</strong>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-                        <div class="animated-number" data-digit="1199" data-duration="1000"></div>
-                        <strong>QUESTIONS ANSWERED</strong>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!--/#animated-number-->
-
-
-
-<!--
-    <section id="testimonial">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
-
-                    <div id="carousel-testimonial" class="carousel slide text-center" data-ride="carousel">
-                        
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <p><img class="img-circle img-thumbnail" src="images/testimonial/01.jpg" alt=""></p>
-                                <h4>Louise S. Morgan</h4>
-                                <small>Treatment, storage, and disposal (TSD) worker</small>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam</p>
-                            </div>
-                            <div class="item">
-                                <p><img class="img-circle img-thumbnail" src="images/testimonial/01.jpg" alt=""></p>
-                                <h4>Louise S. Morgan</h4>
-                                <small>Treatment, storage, and disposal (TSD) worker</small>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam</p>
-                            </div>
-                        </div>
-
-                       
-                        <div class="btns">
-                            <a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button" data-slide="prev">
-                                <span class="fa fa-angle-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button" data-slide="next">
-                                <span class="fa fa-angle-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!--/#testimonial-->
-
-<!--
-    <section id="blog">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Latest Blogs</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <article>
-                            <header class="entry-header">
-                                <div class="entry-thumbnail">
-                                    <img class="img-responsive" src="images/blog/01.jpg" alt="">
-                                    <span class="post-format post-format-video"><i class="fa fa-film"></i></span>
-                                </div>
-                                <div class="entry-date">25 November 2014</div>
-                                <h2 class="entry-title"><a href="#">While now the fated Pequod had been so long afloat this</a></h2>
-                            </header>
-
-                            <div class="entry-content">
-                                <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the mate the long iron rod remaining, bade him hold it upright, without its touching off the steel head of the lance, and then handing to the mate the long iron rod remaining. without its touching off the steel without its touching off the steel</P>
-                                <a class="btn btn-primary" href="#">Read More</a>
-                            </div>
-
-                            <footer class="entry-meta">
-                                <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Victor</a></span>
-                                <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">Tutorial</a></span>
-                                <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">15</a></span>
-                            </footer>
-                        </article>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="blog-post blog-media wow fadeInRight" data-wow-duration="300ms" data-wow-delay="100ms">
-                        <article class="media clearfix">
-                            <div class="entry-thumbnail pull-left">
-                                <img class="img-responsive" src="images/blog/02.jpg" alt="">
-                                <span class="post-format post-format-gallery"><i class="fa fa-image"></i></span>
-                            </div>
-                            <div class="media-body">
-                                <header class="entry-header">
-                                    <div class="entry-date">01 December 2014</div>
-                                    <h2 class="entry-title"><a href="#">BeReviews was a awesome envent in dhaka</a></h2>
-                                </header>
-
-                                <div class="entry-content">
-                                    <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
-                                    <a class="btn btn-primary" href="#">Read More</a>
-                                </div>
-
-                                <footer class="entry-meta">
-                                    <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Campbell</a></span>
-                                    <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">Tutorial</a></span>
-                                    <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">15</a></span>
-                                </footer>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="blog-post blog-media wow fadeInRight" data-wow-duration="300ms" data-wow-delay="200ms">
-                        <article class="media clearfix">
-                            <div class="entry-thumbnail pull-left">
-                                <img class="img-responsive" src="images/blog/03.jpg" alt="">
-                                <span class="post-format post-format-audio"><i class="fa fa-music"></i></span>
-                            </div>
-                            <div class="media-body">
-                                <header class="entry-header">
-                                    <div class="entry-date">03 November 2014</div>
-                                    <h2 class="entry-title"><a href="#">Play list of old bangle  music and gajal</a></h2>
-                                </header>
-
-                                <div class="entry-content">
-                                    <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
-                                    <a class="btn btn-primary" href="#">Read More</a>
-                                </div>
-
-                                <footer class="entry-meta">
-                                    <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Ruth</a></span>
-                                    <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">Tutorial</a></span>
-                                    <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">15</a></span>
-                                </footer>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
--->
-
     <section id="where">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header" lang="nl">
                 <h2 class="section-title text-center wow fadeInDown">Waar en wanneer?</h2>
                 <p class="text-center wow fadeInDown">
                     <strong>Zondag 29 mei 2016</strong><br>
@@ -627,40 +319,64 @@
                     Deelnemers kunnen vanaf 13u alles klaarzetten en testen<br>
                     Vrije toegang voor bezoekers vanaf 14u<br>
                     Bibliotheek Lier (ingang zaal Colibrant)<br>
-                    Deensestraat 6 - 2500 Lier<br>
+                    Deensestraat 6 - 2500 Lier - België<br>
+            </div>
+            <div class="section-header" lang="en">
+                <h2 class="section-title text-center wow fadeInDown">When & Where?</h2>
+                <p class="text-center wow fadeInDown">
+                    <strong>Sunday May 29th 2016</strong><br>
+                    <strong>from 14:00 until 17:00</strong><br>
+                    Participants can set up and test their projects starting at 13:00<br>
+                    Entrance is free from 14:00 until 17:00<br>
+                    Lier Public library (entrance room Colibrant)<br>
+                    Deensestraat 6 - 2500 Lier - Belgium<br>
             </div>
         </div>
     </section>
 
 
-    
-
-
-
     <section id="register">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header" lang="nl">
                 <h2 class="section-title text-center wow fadeInDown">Inschrijven</h2>
+            </div>
+            <div class="section-header" lang="en">
+                <h2 class="section-title text-center wow fadeInDown">Register</h2>
             </div>
             
              <div class="row">
                 <div class="col-sm-4">
-                    <h3 class="column-title">Is er nog plek?</h3>
-                    <strong>ZIT-HET-AL-VOL-METER</strong>
+                    <h3 class="column-title" lang="nl">Is er nog plek?</h3>
+                    <h3 class="column-title" lang="en">Can I still register</h3>
+                    <strong lang="nl">ZIT-HET-AL-VOL-METER</strong>
+                    <strong lang="en">IS-IT-FULL-O-METER</strong>
                     <div class="progress">
                         <div class="progress-bar progress-bar-primary" role="progressbar" data-width="57">57%</div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4" lang="nl">
                     <h3 class="column-title">Schrijf je in</h3>
                     <p>Plaatsen voor deelnemers zijn beperkt.<br>
                     Inschrijven is noodzakelijk, wacht niet te lang!</p>
-                    <a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/1mRs2Cb25vrmxxmGBB4sEQqfQ-ZJgQdk0YCW7gusJlOg/viewform" target="_blank" >Inschrijven</a>
+                    <a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/1mRs2Cb25vrmxxmGBB4sEQqfQ-ZJgQdk0YCW7gusJlOg/viewform" target="_blank" >Hier Inschrijven</a>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4" lang="en">
+                    <h3 class="column-title">Register your project</h3>
+                    <p>
+                        The number of participants is limited.<br>
+                        Don't wait too long to register!
+                    </p>
+                    <a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/1mRs2Cb25vrmxxmGBB4sEQqfQ-ZJgQdk0YCW7gusJlOg/viewform" target="_blank" >Register Here</a>
+                </div>
+                <div class="col-sm-4" lang="nl">
                     <h3 class="column-title">Nodig je vrienden uit</h3>
                     <p>Maak reclame op je school en bij je vrienden en maak er samen een leuke dag van.</p>
                     <a class="btn btn-primary btn-lg" href="images/flyer/Coolest Projects 2016 - Flyer (screen) - NL.pdf" target="_blank" >Flyer downloaden</a>
+                </div>
+                <div class="col-sm-4" lang="en">
+                    <h3 class="column-title">Invite your friends</h3>
+                    <p>Tell your friends about Coolest Projects and make it a fun day together.</p>
+                    <a class="btn btn-primary btn-lg" href="images/flyer/Coolest Projects 2016 - Flyer (screen) - NL.pdf" target="_blank" >Download flyer</a>
                 </div>
                
              </div>
@@ -674,19 +390,30 @@
         
         <div class="container">
 
-            <div class="section-header">
+            <div class="section-header" lang="nl">
                 <h2 class="section-title text-center wow fadeInDown">Sponsors</h2>
                 <p class="text-center wow fadeInDown">Dankzij deze coole sponsors sturen we je zeker niet met lege handen naar huis!</p>
+            </div>
+            
+            <div class="section-header" lang="en">
+                <h2 class="section-title text-center wow fadeInDown">Sponsors</h2>
+                <p class="text-center wow fadeInDown">These cool sponsors won't let you gome home empty-handed!</p>
             </div>
 
             <div class="row">
 
-                <div class="col-sm-4 wow fadeInRight">
+                <div class="col-sm-4 wow fadeInRight" lang="nl">
                     <h3 class="column-title">Logistiek</h3>
                     <p>De bib Lier zet graag haar deuren voor ons open.</p>
                     <p class="text-center"><a href="http://lier.bibliotheek.be/" target="_blank"><img src="images/bib.jpg"/></a></p>
                 </div>
-                <div class="col-sm-8 wow fadeInRight">
+                 <div class="col-sm-4 wow fadeInRight" lang="en">
+                    <h3 class="column-title">Venue</h3>
+                    <p>The public library gives us a warm welcome!</p>
+                    <p class="text-center"><a href="http://lier.bibliotheek.be/" target="_blank"><img src="images/bib.jpg"/></a></p>
+                </div>
+                
+                <div class="col-sm-8 wow fadeInRight" lang="nl">
                     <h3 class="column-title">Dankjewel</h3>
                     <div class="row">
                     </div>
@@ -694,127 +421,28 @@
                     <p>Om er een onvergetelijke dag  van te maken zijn we nog op zoek naar sponsors!</p>
                     <a class="btn btn-primary btn-lg" href="#contact" >Contacteer ons</a>
                 </div>
+                <div class="col-sm-8 wow fadeInRight" lang="en">
+                    <h3 class="column-title">Thanks!</h3>
+                    <div class="row">
+                    </div>
+                    <p>Coolest Projects is organised by <strong>volunteers</strong>.</p>
+                    <p>We're still looking for sponsors to make this an unforgettable day for the participants!</p>
+                    <a class="btn btn-primary btn-lg" href="#contact" >Contact us</a>
+                </div>
+                
             </div>
         </div>
     </section>
-<!--
-            <div class="row">
-                <div class="col-sm-6 col-md-3">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
-                        <ul class="pricing">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        $39
-                                    </span>
-                                    <span class="duration">
-                                        per month
-                                    </span>
-                                </div>
 
-                                <div class="plan-name">
-                                    Starter
-                                </div>
-                            </li>
-                            <li><strong>1</strong> DOMAIN</li>
-                            <li><strong>100GB</strong> DISK SPACE</li>
-                            <li><strong>UNLIMITED</strong> BANDWIDTH</li>
-                            <li>SHARED SSL CERTIFICATE</li>
-                            <li><strong>10</strong> EMAIL ADDRESS</li>
-                            <li><strong>24/7</strong> SUPPORT</li>
-                            <li class="plan-purchase"><a class="btn btn-primary" href="#">ORDER NOW</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <ul class="pricing featured">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        $69
-                                    </span>
-                                    <span class="duration">
-                                        per month
-                                    </span>
-                                </div>
-
-                                <div class="plan-name">
-                                    Business
-                                </div>
-                            </li>
-                            <li><strong>3</strong> DOMAIN</li>
-                            <li><strong>300GB</strong> DISK SPACE</li>
-                            <li><strong>UNLIMITED</strong> BANDWIDTH</li>
-                            <li>SHARED SSL CERTIFICATE</li>
-                            <li><strong>30</strong> EMAIL ADDRESS</li>
-                            <li><strong>24/7</strong> SUPPORT</li>
-                            <li class="plan-purchase"><a class="btn btn-default" href="#">ORDER NOW</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="400ms">
-                        <ul class="pricing">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        $99
-                                    </span>
-                                    <span class="duration">
-                                        per month
-                                    </span>
-                                </div>
-
-                                <div class="plan-name">
-                                    Pro
-                                </div>
-                            </li>
-                            <li><strong>5</strong> DOMAIN</li>
-                            <li><strong>500GB</strong> DISK SPACE</li>
-                            <li><strong>UNLIMITED</strong> BANDWIDTH</li>
-                            <li>SHARED SSL CERTIFICATE</li>
-                            <li><strong>50</strong> EMAIL ADDRESS</li>
-                            <li><strong>24/7</strong> SUPPORT</li>
-                            <li class="plan-purchase"><a class="btn btn-primary" href="#">ORDER NOW</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="600ms">
-                        <ul class="pricing">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        $199
-                                    </span>
-                                    <span class="duration">
-                                        per month
-                                    </span>
-                                </div>
-
-                                <div class="plan-name">
-                                    Ultra
-                                </div>
-                            </li>
-                            <li><strong>10</strong> DOMAIN</li>
-                            <li><strong>1000GB</strong> DISK SPACE</li>
-                            <li><strong>UNLIMITED</strong> BANDWIDTH</li>
-                            <li>SHARED SSL CERTIFICATE</li>
-                            <li><strong>100</strong> EMAIL ADDRESS</li>
-                            <li><strong>24/7</strong> SUPPORT</li>
-                            <li class="plan-purchase"><a class="btn btn-primary" href="#">ORDER NOW</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!--/#pricing-->
     
 <section id="work-process">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header" lang="nl">
                 <h2 class="section-title text-center wow fadeInDown">Je kan ons ook volgen op...</h2>
+            </div>
+            
+            <div class="section-header" lang="en">
+                <h2 class="section-title text-center wow fadeInDown">You can follow us on...</h2>
             </div>
 
             <div class="row text-center">
@@ -837,96 +465,22 @@
                
             </div>
         </div>
-    </section><!--/#work-process-->
+    </section>
     
     
 <section id="info">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header" lang="nl">
                 <h2 class="section-title text-center wow fadeInDown">Meer info</h2>
             </div>
-<!--
-            <div class="row">
-                <div class="col-sm-6 col-md-3">
-                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
-                        <div class="team-img">
-                            <img class="img-responsive" src="images/team/01.jpg" alt="">
-                        </div>
-                        <div class="team-info">
-                            <h3>Bin Burhan</h3>
-                            <span>Co-Founder</span>
-                        </div>
-                        <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                        <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-                        <div class="team-img">
-                            <img class="img-responsive" src="images/team/02.jpg" alt="">
-                        </div>
-                        <div class="team-info">
-                            <h3>Jane Man</h3>
-                            <span>Project Manager</span>
-                        </div>
-                        <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                        <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <div class="team-img">
-                            <img class="img-responsive" src="images/team/03.jpg" alt="">
-                        </div>
-                        <div class="team-info">
-                            <h3>Pahlwan</h3>
-                            <span>Designer</span>
-                        </div>
-                        <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                        <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-                        <div class="team-img">
-                            <img class="img-responsive" src="images/team/04.jpg" alt="">
-                        </div>
-                        <div class="team-info">
-                            <h3>Nasir uddin</h3>
-                            <span>UI/UX</span>
-                        </div>
-                        <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                        <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="section-header" lang="en">
+                <h2 class="section-title text-center wow fadeInDown">More info</h2>
             </div>
 
-            <div class="divider"></div>
--->
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-4" lang="nl">
                     <h3 class="column-title">Over ons</h3>
-                    <p>Coolest project wordt georganiseerd door <strong>CoderDojo Belgium vzw</strong></p>
+                    <p>Coolest Projects wordt georganiseerd door <strong>CoderDojo Belgium vzw</strong></p>
                     <p class="text-center"><img src="images/logo-cdj.png"/></p>
                     <p>
                         CoderDojo is een wereldwijde beweging van vrijwilligers
@@ -943,46 +497,28 @@
                         Meer info over "Coolest Projects" in Ierland op <a href="http://www.coolestprojects.org" target="_blank">www.coolestprojects.org</a>
                     </p>
                 </div>
-<!--
-                <div class="col-sm-4">
-                    <h3 class="column-title">Our History</h3>
-                    <div role="tabpanel">
-                        <ul class="nav main-tab nav-justified" role="tablist">
-                            <li role="presentation" class="active">
-                                <a href="#tab1" role="tab" data-toggle="tab" aria-controls="tab1" aria-expanded="true">2010</a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#tab2" role="tab" data-toggle="tab" aria-controls="tab2" aria-expanded="false">2011</a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#tab3" role="tab" data-toggle="tab" aria-controls="tab3" aria-expanded="false">2013</a>
-                            </li>
-                            <li role="presentation">
-                                <a href="#tab4" role="tab" data-toggle="tab" aria-controls="tab4" aria-expanded="false">2014</a>
-                            </li>
-                        </ul>
-                        <div id="tab-content" class="tab-content">
-                            <div role="tabpanel" class="tab-pane fade active in" id="tab1" aria-labelledby="tab1">
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters readable English.</p>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="tab2" aria-labelledby="tab2">
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters readable English.</p>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="tab3" aria-labelledby="tab3">
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters readable English.</p>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="tab4" aria-labelledby="tab3">
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters readable English.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-sm-4" lang="en">
+                    <h3 class="column-title">About us</h3>
+                    <p>Coolest Projects is organised by <strong>CoderDojo Belgium vzw</strong></p>
+                    <p class="text-center"><img src="images/logo-cdj.png"/></p>
+                    <p>
+                        CoderDojo is a global, volunteer-led movement
+                        of free computer programming clubs for young people
+                    </p>
+                    <p>
+                        CoderDojo originated in Ireland where each year also a big "Coolest Projects Awards"-event is organised.
+                        And now there's a Belgian mini-edition of this event, led by volunteers of the Turnhout, Mechelen en Lier CoderDojo's.
+                    </p>
+                    <p>
+                        Read more about CoderDojo Belgium vzw: <a href="http://www.coderdojobelgium.be" target="_blank">www.coderdojobelgium.be</a>
+                    </p>
+                    <p>
+                        Read more about the big "Coolest Projects" event in Irland: <a href="http://www.coolestprojects.org" target="_blank">www.coolestprojects.org</a>
+                    </p>
                 </div>
--->
-                <div class="col-sm-8">
+
+                <!-- NL FAQS -->
+                <div class="col-sm-8"lang="nl">
                     <h3 class="column-title">Faqs</h3>
                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                         
@@ -1081,10 +617,112 @@
                         </div>
                     </div>
                 </div>
-
+                
+                
+                <!-- EN FAQS -->
+                <div class="col-sm-8" lang="en">
+                    <h3 class="column-title">Faqs</h3>
+                    <div class="panel-group" id="accordion_en" role="tablist" aria-multiselectable="true">
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading01_en">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion_en" href="#collapse01_en" aria-expanded="true" aria-controls="collapse01_en">
+                                       Should I bring something?
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse01_en" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading01_en">
+                                <div class="panel-body">
+                                    You have to bring your project ofcourse. If thats electronics then you can just bring that. If you made a game or some other software you can bring a laptop. Don't have one? Let us know on time and we will provide one to you.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading02_en">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion_en" href="#collapse02_en" aria-expanded="false" aria-controls="collapse02_en">
+                                        Am I allowed to show off something that I didn't make alone?
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse02_en" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading02_en">
+                                <div class="panel-body">
+                                    Yes! If you helped make some kind of project you are allowed to show it.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading03_en">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion_en" href="#collapse03_en" aria-expanded="false" aria-controls="collapse03_en">
+                                        Is it free?
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse03_en" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading03_en">
+                                <div class="panel-body">
+                                    Yes, showing your project and coming to visit are both free for everyone!
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading04_en">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion_en" href="#collapse04_en" aria-expanded="false" aria-controls="collapse04_en">
+                                        At what age am I old enough to participate? What is the maximum age?
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse04_en" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading04_en">
+                                <div class="panel-body">
+                                    Everyone who is younger than 18 is allowed to present their projects!
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading05_en">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion_en" href="#collapse05_en" aria-expanded="false" aria-controls="collapse05_en">
+                                        Are there prices?
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse05_en" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading05_en">
+                                <div class="panel-body">
+                                    We will be giving out prices in different categorys.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading06_en">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion_en" href="#collapse06_en" aria-expanded="false" aria-controls="collapse06_en">
+                                        I still have questions!
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse06_en" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading06_en">
+                                <div class="panel-body">
+                                    Mail us: <a href="mailto:info@coolestprojects.be">info@coolestprojects.be</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
             </div>
         </div>
-    </section><!--/#meet-team-->
+    </section>
 
 
 
@@ -1096,17 +734,7 @@
                 <div class="row">
                     <div class="col-sm-4 col-sm-offset-8">
                         <div class="contact-form">
-                            <h3>Contacteer ons</h3>
-
-                             <!--
-                            <address>
-                              <strong>Twitter, Inc.</strong><br>
-                              795 Folsom Ave, Suite 600<br>
-                              San Francisco, CA 94107<br>
-                              <abbr title="Phone">P:</abbr> (123) 456-7890
-                            </address>
-                            -->
-                            
+                            <h3>Contacteer ons</h3>                            
                             <form id="main-contact-form" name="contact-form" method="post" action="#">
                                 <div class="form-group">
                                     <input type="text" name="name" class="form-control" placeholder="naam" required>
@@ -1134,28 +762,21 @@
     <footer id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6" lang="nl">
                     Dankjewel <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a> voor de coole template!
+                </div>
+                <div class="col-sm-6" lang="en">
+                    Thanks <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a> for the cool template!
                 </div>
                 <div class="col-sm-6">
                     <ul class="social-icons">
-                        <!--
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                        <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        -->
                         <li><a href="https://github.com/Squarific" target="_blank"><i class="fa fa-github"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer><!--/#footer-->
+
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>

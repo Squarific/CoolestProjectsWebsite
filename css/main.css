@@ -44,6 +44,10 @@ a:focus {
   text-decoration: none;
   color: #6ab487;
 }
+.smallSponsor {
+  font-weight: 600;
+  font-size: 16px;
+}
 hr {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #fff;
@@ -646,6 +650,12 @@ ul.nostyle i {
   background-image: -moz-linear-gradient(180deg, #ffffff 0%, #e3e3e3 49%, #ffffff 100%);
   background-image: -webkit-linear-gradient(180deg, #ffffff 0%, #e3e3e3 49%, #ffffff 100%);
   background-image: -ms-linear-gradient(180deg, #ffffff 0%, #e3e3e3 49%, #ffffff 100%);
+  width: 95%;
+  height: 1px;
+}
+.spacer {
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 95%;
   height: 1px;
 }

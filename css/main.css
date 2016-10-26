@@ -1010,3 +1010,7 @@ ul.nostyle i {
   box-shadow: none;
   -webkit-box-shadow: none;
 }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+}

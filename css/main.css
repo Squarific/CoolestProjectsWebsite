@@ -1014,3 +1014,12 @@ ul.nostyle i {
 .carousel-inner > .item > a > img {
   width: 100%;
 }
+img.animatie {
+  margin: 25px;
+  border: 10px solid;
+  border-color: #4278AC;
+}
+#myCarousel {
+  max-width: 600px;
+  margin: 0 auto;
+}

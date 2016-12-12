@@ -152,6 +152,7 @@ jQuery(function($) {'use strict';
 	});
 
 	$(document).ready(function() {
+		/*
 		//Animated Progress
 		$('.progress-bar').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
 			if (visible) {
@@ -159,6 +160,7 @@ jQuery(function($) {'use strict';
 				$(this).unbind('inview');
 			}
 		});
+		*/
 
 		//Animated Number
 		$.fn.animateNumbers = function(stop, commas, duration, ease) {
@@ -190,6 +192,19 @@ jQuery(function($) {'use strict';
 				$this.unbind('inview');
 			}
 		});
+
+		//  Update volmeter
+		 $.get("https://volmeter.azurewebsites.net/api/volmeter?code=4XYCmcqJtrLshnWEbKYYoJsnsDUDSceplVqeBQi5PxwSWKifmriCtQ==", function(data, status){
+        	if( status == "success" ){
+
+				var percent = ( data * 100 ) / 64;
+				var volmeterDiv = document.getElementById("volmeter");
+				volmeterDiv.innerHTML = percent.toFixed( 1 ) + "%";
+				volmeterDiv.setAttribute("data-width", percent);
+				volmeterDiv.style.width = percent.toFixed( 1 ) + "%";
+			}
+    	});
+
 	});
 
 	// Contact form

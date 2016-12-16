@@ -1023,3 +1023,24 @@ img.animatie {
   max-width: 600px;
   margin: 0 auto;
 }
+
+.tjoetjoep-video {
+  width: 300px;
+  height: 170px;
+}
+
+@media only screen and (min-width: 450px) {
+  .tjoetjoep-video {
+    width: 450px;
+    height: 255px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .tjoetjoep-video {
+    width: 600px;
+    height: 340px;
+  }
+}
+
+

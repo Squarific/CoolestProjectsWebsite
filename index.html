@@ -60,10 +60,12 @@
                     </button>
 
 					<div class="navbar-brand">
-						<!--
+						
                         <button class="btn" onclick="document.body.className='homepage nl';new WOW().init();">NL</button>
+                        <button class="btn" onclick="document.body.className='homepage fr';new WOW().init();">FR</button>
                         <button class="btn" onclick="document.body.className='homepage en';new WOW().init();">EN</button>
                        
+						<!--
                         <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
                          -->
 					</div>
@@ -82,13 +84,20 @@
 					</ul>
 					<ul class="nav navbar-nav" lang="en">
 						<li class="scroll active"><a href="#home">Home</a></li>
+						<li class="scroll"><a href="#where">Where</a></li>
 						<li class="scroll"><a href="#what">What</a></li>
 						<li class="scroll"><a href="#portfolio">Inspiration</a></li>
-						<li class="scroll"><a href="#where">Where</a></li>
 						<li class="scroll"><a href="#register">Register</a></li>
 						<li class="scroll"><a href="#info">More info</a></li>
 					</ul>
-
+					<ul class="nav navbar-nav" lang="fr">
+						<li class="scroll active"><a href="#home">Accueil</a></li>
+						<li class="scroll"><a href="#where">Où</a></li>
+						<li class="scroll"><a href="#what">Quoi</a></li>
+						<li class="scroll"><a href="#portfolio">Inspiration</a></li>
+						<li class="scroll"><a href="#register">Inscription</a></li>
+						<li class="scroll"><a href="#info">En savoir plus</a></li>
+					</ul>
 				</div>
 			</div>
 			<!--/.container-->
@@ -118,6 +127,13 @@
 									</h2>
 									<a class="btn btn-primary btn-lg" href="#register">Join us!</a>
 								</div>
+								<div class="carousel-content" lang="fr">
+									<h2>
+										'Coolest Projects'<br>
+										<br> Un salon tech pour les jeunes
+									</h2>
+									<a class="btn btn-primary btn-lg" href="#register">Participe!</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -139,8 +155,13 @@
 								</div>
 								<div class="carousel-content" lang="en">
 									<h2><span>Sunday May 7th 2017</span></h2>
-									<p>Event venue 'De Mol' - Aarschotsesteenweg 3 - 2500 Lier</p>
+									<p>Event venue 'De Mol' <br> Aarschotsesteenweg 3 - 2500 Lier</p>
 									<a class="btn btn-primary btn-lg" href="#register">Join us!</a>
+								</div>
+								<div class="carousel-content" lang="fr">
+									<h2><span>7 mai 2017</span></h2>
+									<p>Centre culturel &quot;De Mol&quot; <br> Aarschotsesteenweg 3 - 2500 Lier</p>
+									<a class="btn btn-primary btn-lg" href="#register">Participe!</a>
 								</div>
 							</div>
 						</div>
@@ -175,6 +196,9 @@
 				</div>
 			</div>
 			<div class="row" lang="en">
+			<div class="col-sm-6 text-center">
+					<img src="images/logo_coolest_projects_v.svg" alt="Logo coolest Projects"/>
+				</div>
 				<div class="col-sm-6">
 					<h2>For who?</h2>
 					<p>
@@ -187,6 +211,23 @@
 					<p>
 						Building cool digital things is fun. Sharing them with the world is even more awesome! And there are great prizes for you
 						to win.
+					</p>
+				</div>
+			</div>
+			<div class="row" lang="fr">
+			<div class="col-sm-6 text-center">
+					<img src="images/logo_coolest_projects_v.svg" alt="Logo coolest Projects"/>
+				</div>
+				<div class="col-sm-6">
+					<h2>Pour qui?</h2>
+					<p>
+						Tu as moins de 18 ans? Tu aimes construire des trucs créatifs? Coolest Projects est fait pour toi! Présente tes constructions à ce salon tech!
+					</p>
+				</div>
+				<div class="col-sm-6">
+					<h2>Pourquoi participer?</h2>
+					<p>
+						Construire des trucs sympas, c'est chouette. Les montrer au monde entier, c'est mieux! En plus, tu peux y gagner de super prix.
 					</p>
 				</div>
 			</div>
@@ -224,6 +265,21 @@
 					<br>
 				</p>
 			</div>
+
+			<div class="section-header" lang="fr">
+				<h2 class="section-title text-center wow fadeInDown">OÙ ET QUAND?</h2>
+				<p class="text-center wow fadeInDown">
+					<strong>7 mai 2017 </strong>
+					<br>
+					<strong>De 14h00 à 18h00 </strong>
+					<br> Les participants sont attendus à 13h00 
+					<br> Accès gratuit pour les visiteurs à partir de 14h00
+					<br> Remise des prix à 17h30 
+					<br> <strong>Centre culturel &quot;De Mol&quot;</strong>
+					<br> <strong>Aarschotsesteenweg 3 - 2500 Lier - Belgium</strong>
+					<br>
+				</p>
+			</div>
 		</div>
 	</section>
 
@@ -240,6 +296,12 @@
 				<p class="text-center wow fadeInDown">
 					Coolest Projects is all about showcasing the technology projects made by the young people. So run to your garage and make
 					stuff:
+				</p>
+			</div>
+			<div class="section-header" lang="fr">
+				<h2 class="section-title text-center wow fadeInDown">Quoi?</h2>
+				<p class="text-center wow fadeInDown">
+					Lors de Coolest Projects, nous présenterons les projets construits par les participants. Crée donc toi-même :
 				</p>
 			</div>
 			<div class="row">
@@ -259,7 +321,19 @@
 						</div>
 						<div class="media-body" lang="en">
 							<h4 class="media-heading">Electronic-thingies</h4>
-							<p>&nbsp;</p>
+							<p>Can't get enough of batteries, led lights, resistors, wires, ...? Build something fancy and come show us!
+							</p>
+							<p>Using websites like <a href="https://123d.circuits.io/" target="_blank">123D Circuits</a> allows you to easily create cool things without needing the components.</p>
+							<p>Need more processing power? Consider <a href="https://www.arduino.cc/" target="_blank">Arduino</a>								or <a href="https://www.raspberrypi.org/" target="_blank">Raspberry Pi</a>.
+							</p>
+						</div>
+						<div class="media-body" lang="fr">
+							<h4 class="media-heading">Des concoctions électroniques</h4>
+							<p>Batteries, témoins, résistances et câbles: tu n’en as jamais assez? Fabrique quelque chose de sympa et montre-le!
+							</p>
+							<p>Des sites Web tels que <a href="https://123d.circuits.io/" target="_blank">123D Circuits</a> t’aideront à construire des trucs sympas sans "vrai" matériel.</p>
+							<p>Tu veux plus de puissance informatique dans un projet électronique ? Envisage un <a href="https://www.arduino.cc/" target="_blank">Arduino</a> ou <a href="https://www.raspberrypi.org/" target="_blank">Raspberry Pi</a>.
+							</p>
 						</div>
 					</div>
 
@@ -275,7 +349,11 @@
 						</div>
 						<div class="media-body" lang="en">
 							<h4 class="media-heading">Wearables</h4>
-							<p>&nbsp;</p>
+							<p>Tune your shoes with LEDs, 3D-print a summer dress, upgrade your T-shirt with spy gadgets...</p>
+						</div>
+						<div class="media-body" lang="fr">
+							<h4 class="media-heading">Ordinateurs vestimentaires</h4>
+							<p>Tune tes chaussures avec des LED, imprime une jupe d'été en 3D, accroche des gadgets d'espionnage à ton T-shirt...</p>
 						</div>
 					</div>
 
@@ -298,7 +376,25 @@
 						</div>
 						<div class="media-body" lang="en">
 							<h4 class="media-heading">Robots</h4>
-							<p>&nbsp;</p>
+							<p>Even <a href="https://www.youtube.com/watch?v=46ivFpsmEVQ" target="_blank">crappy robots</a> can be cool! Use every day items to build your own robots! Keep it safe!</p>
+							<p>Or use existing kits like
+								<a href="https://meetedison.com/" target="_blank">Edison</a>,
+								<a href="http://www.makeblock.cc/mbot/" target="_blank">mBot</a>,
+								<a href="http://www.lego.com/nl-be/mindstorms/?domainredir=mindstorms.lego.com" target="_blank">Lego Mindstorms</a>,
+								<a href="http://www.dwengo.org/" target="_blank">Dwengo</a>,
+								<a href="http://www.meccano.com/meccanoid-about" target="_blank">Meccanoid</a>, ...
+							</p>
+						</div>
+						<div class="media-body" lang="fr">
+							<h4 class="media-heading">Robots</h4>
+							<p>Même les <a href="https://www.youtube.com/watch?v=46ivFpsmEVQ" target="_blank">crappy robots</a> peuvent avoir l'air cool! Utilise du matériel de la maison, du jardin ou de la cuisine pour construire ton propre robot! Keep it safe!</p>
+							<p>Ou utilise des kits robots existants comme
+								<a href="https://meetedison.com/" target="_blank">Edison</a>,
+								<a href="http://www.makeblock.cc/mbot/" target="_blank">mBot</a>,
+								<a href="http://www.lego.com/nl-be/mindstorms/?domainredir=mindstorms.lego.com" target="_blank">Lego Mindstorms</a>,
+								<a href="http://www.dwengo.org/" target="_blank">Dwengo</a>,
+								<a href="http://www.meccano.com/meccanoid-about" target="_blank">Meccanoid</a>, etc.
+							</p>
 						</div>
 					</div>
 
@@ -317,7 +413,15 @@
 						</div>
 						<div class="media-body" lang="en">
 							<h4 class="media-heading">Games</h4>
-							<p>&nbsp;</p>
+							<a href="http://scratch.mit.edu" target="_blank">Scratch</a>,
+								<a href="https://unity3d.com" target="_blank">Unity</a>,
+								<a href="https://www.yoyogames.com/get" target="_blank">Game Maker</a>, ... all perfect tools for creating your own fun and interactive game.
+						</div>
+						<div class="media-body" lang="fr">
+							<h4 class="media-heading">Games</h4>
+							<a href="http://scratch.mit.edu" target="_blank">Scratch</a>,
+								<a href="https://unity3d.com" target="_blank">Unity</a>,
+								<a href="https://www.yoyogames.com/get" target="_blank">Game Maker</a>, ... Tous conviennent pour créer de chouettes jeux.
 						</div>
 					</div>
 
@@ -333,7 +437,11 @@
 						</div>
 						<div class="media-body" lang="en">
 							<h4 class="media-heading">Websites</h4>
-							<p>&nbsp;</p>
+							<p>Have fun making your own website.</p>
+						</div>
+						<div class="media-body" lang="fr">
+							<h4 class="media-heading">Websites</h4>
+							<p>Amuse-toi à créer un site Web sympa.</p>
 						</div>
 					</div>
 
@@ -371,7 +479,40 @@
 						</div>
 						<div class="media-body" lang="en">
 							<h4 class="media-heading">Fun software</h4>
-							<p>&nbsp;</p>
+							<p>Never programmed? You can first go trough a few exercises <a href="https://code.org/learn" target="_blank">code.org</a>.
+								This way you'll quickly realise wheter solving problems using pure logic is something for you.
+							</p>
+
+							<p>Do you think, just like us, that blocks are super cool? Then <a href="http://scratch.mit.edu" target="_blank">Scratch</a> will be your thing!
+								  <a href=http://lier.coderdojobelgium.be/wat-doen-we/scratch" target="_blank">On this website</a> you can find a lot of material to get you started. Or be inspired by other people like <a href="https://scratch.mit.edu/users/chrisg/projects/"
+									target="_blank">chrisg</a>,
+								<a href="https://scratch.mit.edu/users/PinkyPepper/projects/" target="_blank">PinkyPepper</a> or the many other people sharing their projects on the scratch website.</p>
+
+							<p>You are never too young! Using <a href="http://www.scratchjr.org/" target="_blank">ScratchJr</a>	even the youngest can code.</p>
+
+							<p>Using <a href="http://appinventor.mit.edu/explore/" target="_blank">App Inventor</a> you can make real android apps.
+								Who said blocks can't be cool ;-)</p>
+
+							<p>More of a typist? <a href="https://www.python.org/" target="_blank">Python</a>,
+								<a href="http://lier.coderdojobelgium.be/wat-doen-we/javascript" target="_blank">JavaScript</a> or one of the many other languages will be something for you. Where to start? You can try <a href="https://www.codecademy.com/" target="_blank">codecademy</a>					
+						</div>
+						<div class="media-body" lang="fr">
+							<h4 class="media-heading">Des logiciels amusants</h4>
+							<p>Tu n'as encore jamais programmé? Fais d’abord quelques exercices sur <a href="https://code.org/learn" target="_blank">code.org</a>.
+								Tu découvriras ainsi tout de suite si tu es fait pour résoudre des problèmes ou construire des trucs logiques.
+							</p>
+
+							<p>Tout comme nous, tu adores les blocs? Alors, <a href="http://scratch.mit.edu" target="_blank">Scratch</a> est fait pour toi!
+								   Tu trouveras tout plein de matériel didactique <a href=http://lier.coderdojobelgium.be/wat-doen-we/scratch" target="_blank">sur ce site</a>. Tu peux aussi t’inspirer de projets d'autres scratchers comme <a href="https://scratch.mit.edu/users/chrisg/projects/"
+									target="_blank">chrisg</a>,
+								<a href="https://scratch.mit.edu/users/PinkyPepper/projects/" target="_blank">PinkyPepper</a> ou de nombreux autres qui partagent leurs projets sur le site Web de scratch.</p>
+
+							<p>Avec <a href="http://www.scratchjr.org/" target="_blank">ScratchJr</a> les plus jeunes peuvent se mettre au travail sur la tablette.</p>
+
+							<p>Using <a href="http://appinventor.mit.edu/explore/" target="_blank">App Inventor</a> te permet de développer des applis Android. Alors, tu trouves toujours que les blocs, c'est pas cool? ;-)</p>
+
+							<p>Tu préfères plutôt le clavier? Alors, tu apprécieras plus <a href="https://www.python.org/" target="_blank">Python</a>,
+								<a href="http://lier.coderdojobelgium.be/wat-doen-we/javascript" target="_blank">JavaScript</a> ou un des innombrables autres langages de programmation. Par où commencer? Sur <a href="https://www.codecademy.com/" target="_blank">codecademy</a>	par exemple.				
 						</div>
 					</div>
 
@@ -388,6 +529,10 @@
 							<h4 class="media-heading">Or surprise us!</h4>
 							<p>Don't let us limit your creativity, and create your own tech-idea!</p>
 						</div>
+						<div class="media-body" lang="fr">
+							<h4 class="media-heading">Ou surprends-nous!</h4>
+							<p>Ne nous laisse pas brider ta créativité! Tu as une super idée technologique? Un jeu Minecraft trop sympa ? Un vélo qui roule tout seul? Vas-y, lâche-toi!</p>
+						</div>
 					</div>
 
 				</div>
@@ -397,10 +542,22 @@
 
 	<section id="portfolio">
 		<div class="container">
-			<div class="section-header">
+			<div class="section-header" lang="nl">
 				<h2 class="section-title text-center wow fadeInDown">Inspiratie</h2>
 				<p class="text-center wow fadeInDown">Laat je inspirereren door enkele van de coole projecten van vorige deelnemers</p>
 				<p class="text-center wow fadeInDown">Een volledige projectlijst van editie 2016 vind je in <a href='./images/2016/BrochureCoolestProjectsBE2016.pdf' target='_blank'>deze brochure</a></p>
+			</div>
+			
+			<div class="section-header" lang="en">
+				<h2 class="section-title text-center wow fadeInDown">Inspiration</h2>
+				<p class="text-center wow fadeInDown">Be inspired by the previous participants</p>
+				<p class="text-center wow fadeInDown">A complete project list of the 2016 edition can be found in <a href='./images/2016/BrochureCoolestProjectsBE2016.pdf' target='_blank'>this brochure</a></p>
+			</div>
+			
+			<div class="section-header" lang="fr">
+				<h2 class="section-title text-center wow fadeInDown">Inspiration</h2>
+				<p class="text-center wow fadeInDown">Inspire-toi de quelques projets sympas des participants précédents.</p>
+				<p class="text-center wow fadeInDown">ETu trouveras la liste complète des projets 2016 dans <a href='./images/2016/BrochureCoolestProjectsBE2016.pdf' target='_blank'>cette brochure.</a></p>
 			</div>
 
 			<div class='text-center'>
@@ -696,6 +853,150 @@
 				</div>
 			</div>
 		</div>
+		<div class="container" lang="en">
+			<div class="section-header" lang="en">
+				<h2 class="section-title text-center wow fadeInDown">Accessibility</h2>
+				<!--
+                <p class="text-center wow fadeInDown">
+                    Tijdens Coolest Projects tonen we projecten die deelnemers zelf gebouwd hebben. Maak dus zelf:
+                </p>
+                -->
+			</div>
+			<div class="row">
+				<div class="col-sm-6 wow fadeInLeft">
+					<div class="media service-box wow fadeInRight">
+						<div class="pull-left">
+							<i class="fa fa-bicycle"></i>
+						</div>
+						<div class="media-body" lang="en">
+							<h4 class="media-heading">Using a bike is always the most fun!</h4>
+							<p>
+								Plan your route on <a href="http://www.fietsnet.be/routeplanner/default.aspx" target="_blank">www.fietsnet.be</a>.
+								Cultureel centrum 'De Mol' is close to 'fietsknooppunt' 05.
+							</p>
+						</div>
+					</div>
+
+
+
+					<div class="media service-box wow fadeInRight">
+						<div class="pull-left">
+							<i class="fa fa-bus"></i>
+						</div>
+						<div class="media-body" lang="en">
+							<h4 class="media-heading">Bus</h4>
+							<p>
+								Info about busses can be found on <a href="https://www.delijn.be/nl/" target="_blank">www.delijn.be</a>.
+								<br>Busstop 'De Mol' (lijnen 1 / 2 / 90 / 154 / 556) is right outside.
+								<br>Busstop 'Markt (Grote Markt)' en 'Veemarkt' are about 10 minutes walking.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+
+					<div class="media service-box wow fadeInRight">
+						<div class="pull-left">
+							<i class="fa fa-train"></i>
+						</div>
+						<div class="media-body" lang="en">
+							<h4 class="media-heading">Trein</h4>
+							<p>
+								Lier has splendid <a href="http://www.belgianrail.be/nl" target="_blank"> train connections</a>. Coming from the station you will have to do a 20 minute walk or
+								<br> you can use the <a href='http://www.blue-bike.be' target='_blank'>Blue-bike</a> both the station and our venue has an access point!
+							</p>
+						</div>
+					</div>
+
+					<div class="media service-box wow fadeInRight">
+						<div class="pull-left">
+							<i class="fa fa-car"></i>
+						</div>
+						<div class="media-body" lang="en">
+							<h4 class="media-heading">Coming with a car?</h4>
+
+							<p>
+								Parking info can be found here: <a href="http://www.lier.be/PRAKTISCHE_INFO/Waar_parkeer_ik_mijn_auto_in_Lier/Parkeren_in_Lier"
+									target="_blank">www.lier.be</a>. There is free parking near the venue.
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="container" lang="fr">
+			<div class="section-header" lang="fr">
+				<h2 class="section-title text-center wow fadeInDown">ACCESSIBILITÉ</h2>
+				<!--
+                <p class="text-center wow fadeInDown">
+                    Tijdens Coolest Projects tonen we projecten die deelnemers zelf gebouwd hebben. Maak dus zelf:
+                </p>
+                -->
+			</div>
+			<div class="row">
+				<div class="col-sm-6 wow fadeInLeft">
+					<div class="media service-box wow fadeInRight">
+						<div class="pull-left">
+							<i class="fa fa-bicycle"></i>
+						</div>
+						<div class="media-body" lang="fr">
+							<h4 class="media-heading">C'est toujours plus gai à vélo!</h4>
+							<p>
+								Planifie ton itinéraire sur <a href="http://www.fietsnet.be/routeplanner/default.aspx" target="_blank">www.fietsnet.be</a>.
+								Le centre culturel "De Mol" est juste à côté de la jonction cyclable 05.
+							</p>
+						</div>
+					</div>
+
+
+
+					<div class="media service-box wow fadeInRight">
+						<div class="pull-left">
+							<i class="fa fa-bus"></i>
+						</div>
+						<div class="media-body" lang="fr">
+							<h4 class="media-heading">Bus</h4>
+							<p>
+								Trouve ton bus favori sur <a href="https://www.delijn.be/nl/" target="_blank">www.delijn.be</a>.
+								<br>L'arrêt de bus "De Mol" (lignes 1 / 2 / 90 / 154 / 556) est juste à côté. 
+								<br>Les arrêts de bus "Markt (Grote Markt)" et "Veemarket" sont à 10 minutes à pied.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+
+					<div class="media service-box wow fadeInRight">
+						<div class="pull-left">
+							<i class="fa fa-train"></i>
+						</div>
+						<div class="media-body" lang="fr">
+							<h4 class="media-heading">Train</h4>
+							<p>
+								Lier est très bien <a href="http://www.belgianrail.be/nl" target="_blank"> desservi</a> par le train.. De la gare, le centre culturel se trouve à une vingtaine de minutes de marche. 
+								<br> À la gare et au centre culturel, tu trouveras des <a href='http://www.blue-bike.be' target='_blank'>points de location Blue-bike</a>!
+							</p>
+						</div>
+					</div>
+
+					<div class="media service-box wow fadeInRight">
+						<div class="pull-left">
+							<i class="fa fa-car"></i>
+						</div>
+						<div class="media-body" lang="fr">
+							<h4 class="media-heading">En voiture?</h4>
+
+							<p>
+								Tu trouveras des infos sur les possibilités de stationnement sur <a href="http://www.lier.be/PRAKTISCHE_INFO/Waar_parkeer_ik_mijn_auto_in_Lier/Parkeren_in_Lier"
+									target="_blank">www.lier.be</a>. Un grand parking gratuit se trouve à côté du centre culturel "De Mol".
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<section id="cta2">
@@ -711,13 +1012,23 @@
 				<img class="img-responsive wow fadeIn" src="images/cta2/cta2-img.png" alt="" data-wow-duration="300ms" data-wow-delay="300ms">
 			</div>
 			<div class="text-center" lang="en">
-				<h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">A <span>fun afternoon</span> loaded with technology</h2>
+				<h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">A fun afternoon loaded with technology</h2>
 				<p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
 					You don't need to be a rocket scientist to participate (but you can of course if you are one ;-)
 					<br> As long as you just enjoy building technology stuff, no matter how small it seems!
 					<br> Please don’t worry if you have not fully completed your project, bring it and you can show the parts that are working.
 					<br> The Coolest Projects event is all about the experience and learning gained from participating and showcasing what
 					you’ve created.
+				</p>
+				<img class="img-responsive wow fadeIn" src="images/cta2/cta2-img.png" alt="" data-wow-duration="300ms" data-wow-delay="300ms">
+			</div>
+			<div class="text-center" lang="fr">
+				<h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">Un après-midi sympa débordant de technologie</h2>
+				<p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+					Pas besoin d’être un ingénieur de la NASA pour participer (mais c’est permis, bien sûr! ;-)) 
+					<br> Il suffit d'aimer construire, même des trucs tout petits ! 
+					<br> Et même si ton projet n'est pas tout à fait fini, n'hésite pas à venir nous le présenter. 
+					<br> Coolest Projects vise surtout le plaisir que tu as eu et l'expérience que tu as acquise en réfléchissant, en construisant et en partageant ton projet.
 				</p>
 				<img class="img-responsive wow fadeIn" src="images/cta2/cta2-img.png" alt="" data-wow-duration="300ms" data-wow-delay="300ms">
 			</div>
@@ -729,12 +1040,28 @@
 		<div class="container">
 
 
-			<div class="section-header">
+			<div class="section-header" lang="nl">
 				<h2 class="section-title text-center wow fadeInDown">Toffe randanimatie</h2>
 				<p class="text-center wow fadeInDown">
 					Naast de coole projecten van onze jonge deelnemers
 					<br>hebben we nog leuke extra's, zoals 3D-printers, robots, een XXL Gameboy,...
 					<br>Zeker een bezoekje waard dus!
+				</p>
+			</div>
+			<div class="section-header" lang="en">
+				<h2 class="section-title text-center wow fadeInDown">Fun things to see</h2>
+				<p class="text-center wow fadeInDown">
+					Next to the cool projects of our young participants 
+					<br>we also showed fun extra's like 3d printers, robots, XXL gameboys and much more!
+					<br>Absolutely worth a visit!
+				</p>
+			</div>
+			<div class="section-header" lang="fr">
+				<h2 class="section-title text-center wow fadeInDown">AUTRES ANIMATIONS SYMPA</h2>
+				<p class="text-center wow fadeInDown">
+					En plus des projets de nos jeunes participants, 
+					<br>nous avons des bonus amusants, comme des imprimantes en 3D, des robots, une Gameboy XXL, etc. 
+					<br>Ça vaut donc la peine de nous rendre visite!
 				</p>
 			</div>
 			<div class="row">
@@ -774,14 +1101,21 @@
 			</div>
 			<div class="section-header" lang="en">
 				<h2 class="section-title text-center wow fadeInDown">Register</h2>
+				<p class='text-center'>The event is free for everyone. <strong>Participants</strong> that want to show their project have to register beforehand. <strong>Visitors</strong> are welcome from 14h to 18h and do not have to register. </p>
+			</div>
+			<div class="section-header" lang="fr">
+				<h2 class="section-title text-center wow fadeInDown">INSCRIPTIONS</h2>
+				<p class='text-center'>Le salon est gratuit pour tout le monde. <strong>Les participants</strong> qui veulent présenter un projet doivent s'inscrire au préalable. <strong>Les visiteurs</strong> sont les bienvenus de 14h00 à 18h00 et ne doivent pas s'inscrire préalablement.</p>
 			</div>
 
 			<div class="row">
 				<div class="col-sm-4">
 					<h3 class="column-title" lang="nl">Is er nog plek?</h3>
 					<h3 class="column-title" lang="en">Can I still register</h3>
+					<h3 class="column-title" lang="fr">Il y a encore de la place?</h3>
 					<strong lang="nl">ZIT-HET-AL-VOL-METER</strong>
 					<strong lang="en">IS-IT-FULL-O-METER</strong>
+					<strong lang="fr">JAUGE "C'EST COMPLET"</strong>
 					<div class="progress">
 						<div id="volmeter" class="progress-bar progress-bar-primary" data-width="0">loading...</div>
 						<!-- role="progressbar" -->
@@ -791,6 +1125,9 @@
 					</p>
 					<p lang="en">
 						There's room for 64 projects! Register today and you'll become one of the tech-rockstars of Coolest Projects 2017!
+					</p>
+					<p lang="fr">
+						Nous avons de la place pour 64 projets ! Inscris-toi rapidement pour devenir l'une des stars technologiques de Coolest Projects 2017 !
 					</p>
 				</div>
 				<div class="col-sm-4" lang="nl">
@@ -817,6 +1154,20 @@
                     <p>All participant-spots are gone... Should we book a larger venue in 2017? Always welcome as a visitor!</p>
                     -->
 				</div>
+				<div class="col-sm-4" lang="fr">
+
+					<h3 class="column-title">Inscris-toi</h3>
+
+					<p>
+						Les places pour les participants sont limitées.  L'inscription est obligatoire.
+					<br>Ne traîne donc pas trop !
+					</p>
+					<a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSc06DjZNQFheAhRZkN9iDGzXsb3jAFb22zDNdNqcR4AEsa8sw/viewform"
+						target="_blank">Inscris-toi ici</a>
+					<!--
+                    <p>All participant-spots are gone... Should we book a larger venue in 2017? Always welcome as a visitor!</p>
+                    -->
+				</div>
 				<div class="col-sm-4" lang="nl">
 					<h3 class="column-title">Nodig je vrienden uit</h3>
 					<p>Maak reclame op je school en bij je vrienden en maak er samen een leuke dag van.</p>
@@ -827,6 +1178,11 @@
 					<h3 class="column-title">Invite your friends</h3>
 					<p>Tell your friends about Coolest Projects and make it a fun day together.</p>
 					<a class="btn btn-primary btn-lg" href="images/flyer/Coolest Projects 2016 - Flyer (screen) - NL.pdf" target="_blank">Download flyer</a>
+				</div>
+				<div class="col-sm-4" lang="fr">
+					<h3 class="column-title">Invite tes amis</h3>
+					<p>Fais de la pub dans ton école et auprès de tes amis et organisez-vous une journée sympa.</p>
+					<a class="btn btn-primary btn-lg" href="images/flyer/Coolest Projects 2016 - Flyer (screen) - NL.pdf" target="_blank">Télécharger le flyer</a>
 				</div>
 
 			</div>
@@ -841,6 +1197,10 @@
 
 			<div class="section-header" lang="en">
 				<h2 class="section-title text-center wow fadeInDown">You can follow us on...</h2>
+			</div>
+
+			<div class="section-header" lang="fr">
+				<h2 class="section-title text-center wow fadeInDown">TU PEUX NOUS SUIVRE SUR...</h2>
 			</div>
 
 			<div class="row text-center">
@@ -878,12 +1238,48 @@
 					<br>Het doet ons enorm veel plezier te kunnen rekenen op een aantal sterke partners!
 				</p>
 			</div>
+			<div class="section-header" lang="en">
+				<h2 class="section-title text-center wow fadeInDown">Thanks</h2>
+				<p class="text-center wow fadeInDown">
+					<strong>Coolest Projects</strong> is organised by volunteers of <a href="http://www.coderdojobelgium.be"
+						target="_blank">CoderDojo Belgium vzw</a>.
+					<br>We are glad we can count on some strong partners!
+				</p>
+			</div>
+			<div class="section-header" lang="fr">
+				<h2 class="section-title text-center wow fadeInDown">MERCI</h2>
+				<p class="text-center wow fadeInDown">
+					<strong>Coolest Projects</strong> est organisé par des bénévoles de <a href="http://www.coderdojobelgium.be"
+						target="_blank">CoderDojo Belgium vzw</a>.
+					<br>Nous sommes heureux de pouvoir compter sur plusieurs partenaires de poids!
+				</p>
+			</div>
 
 			<div class="row">
 				<div class="col-sm-4 wow fadeInRight" lang="nl">
 					<h3 class="column-title"><i class="fa fa-thumbs-o-up"></i></h3>
 					<p>De <a href="http://lier.bibliotheek.be/" target="_blank">bib Lier</a> en het <a href="http://www.lierscultuurcentrum.be/"
 							target="_blank">Liers Cultuurcentrum</a> zorgen voor logistieke steun</p>
+					<p class="text-center">
+						<a href="http://lier.bibliotheek.be/" target="_blank"><img class="sponsor" src="images/partners2017/bib.png" /></a>
+						<a href="http://www.lierscultuurcentrum.be/" target="_blank"><img class="sponsor" src="images/partners2017/cultuurcentrum.png" /></a>
+					</p>
+				</div>
+				
+				<div class="col-sm-4 wow fadeInRight" lang="en">
+					<h3 class="column-title"><i class="fa fa-thumbs-o-up"></i></h3>
+					<p>The <a href="http://lier.bibliotheek.be/" target="_blank">bib Lier</a> and the <a href="http://www.lierscultuurcentrum.be/"
+							target="_blank">Liers Cultuurcentrum</a> give logistical support</p>
+					<p class="text-center">
+						<a href="http://lier.bibliotheek.be/" target="_blank"><img class="sponsor" src="images/partners2017/bib.png" /></a>
+						<a href="http://www.lierscultuurcentrum.be/" target="_blank"><img class="sponsor" src="images/partners2017/cultuurcentrum.png" /></a>
+					</p>
+				</div>
+				
+				<div class="col-sm-4 wow fadeInRight" lang="fr">
+					<h3 class="column-title"><i class="fa fa-thumbs-o-up"></i></h3>
+					<p>Le <a href="http://lier.bibliotheek.be/" target="_blank">bib Lier</a> en het <a href="http://www.lierscultuurcentrum.be/"
+							target="_blank">Centre culturel de Lier</a> offrent un soutien logistique.</p>
 					<p class="text-center">
 						<a href="http://lier.bibliotheek.be/" target="_blank"><img class="sponsor" src="images/partners2017/bib.png" /></a>
 						<a href="http://www.lierscultuurcentrum.be/" target="_blank"><img class="sponsor" src="images/partners2017/cultuurcentrum.png" /></a>
@@ -902,8 +1298,30 @@
 						<a href="http://www.visitlier.be/" target="_blank"><img class="sponsor" src="images/partners2017/lier.png" /></a>
 					</p>
 				</div>
+				<div class="col-sm-4 wow fadeInRight" lang="en">
+					<h3 class="column-title"><i class="fa fa-eur"></i></h3>
+					<p>
+						Thanks to financial support of <a href="https://telenet.be" target="_blank">Telenet</a> and <a href="http://www.visitlier.be/"
+							target="_blank">Stad Lier</a> we can provide a fun expericence for participants and visitors!
+					</p>
+					<p class="text-center">
+						<a href="https://telenet.be" target="_blank"><img class="sponsor" src="images/partners2017/telenet.png" /></a>
+						<a href="http://www.visitlier.be/" target="_blank"><img class="sponsor" src="images/partners2017/lier.png" /></a>
+					</p>
+				</div>
+				<div class="col-sm-4 wow fadeInRight" lang="fr">
+					<h3 class="column-title"><i class="fa fa-eur"></i></h3>
+					<p>
+						Le soutien financier de <a href="https://telenet.be" target="_blank">Telenet</a> et de la <a href="http://www.visitlier.be/"
+							target="_blank">ville de Lier</a> a assuré une source de plaisir supplémentaire pour les participants et les visiteurs!
+					</p>
+					<p class="text-center">
+						<a href="https://telenet.be" target="_blank"><img class="sponsor" src="images/partners2017/telenet.png" /></a>
+						<a href="http://www.visitlier.be/" target="_blank"><img class="sponsor" src="images/partners2017/lier.png" /></a>
+					</p>
+				</div>
 
-				<div class="col-sm-4 wow fadeInRight" lang="nl">
+				<div class="col-sm-4 wow fadeInRight">
 					<h3 class="column-title">&nbsp;</h3>
 					<p>
 						&nbsp;
@@ -925,6 +1343,9 @@
 			</div>
 			<div class="section-header" lang="en">
 				<h2 class="section-title text-center wow fadeInDown">More info</h2>
+			</div>
+			<div class="section-header" lang="fr">
+				<h2 class="section-title text-center wow fadeInDown">EN SAVOIR PLUS</h2>
 			</div>
 
 			<div class="row">
@@ -966,6 +1387,27 @@
 					</p>
 					<p>
 						Read more about the big "Coolest Projects" event in Ireland: <a href="http://www.coolestprojects.org" target="_blank">www.coolestprojects.org</a>.
+						<!--
+                        If you want to present your project in Ireland
+                        too, you can apply for a <a href="https://coderdojo.com/news/2016/02/10/apply-for-a-travel-bursary-for-coolest-projects-2016/">travel bursary</a>
+                        -->
+					</p>
+				</div>
+				<div class="col-sm-4" lang="fr">
+					<h3 class="column-title">À propos de nous</h3>
+					<p>Coolest Projects est organisé par <strong>CoderDojo Belgium vzw</strong></p>
+					<p class="text-center"><img src="images/logo-cdj.png" alt="Logo CoderDojo" /></p>
+					<p>
+						CoderDojo est un mouvement mondial de bénévoles qui s'engagent à faire aimer la programmation et la technologie aux jeunes.
+					</p>
+					<p>
+						CoderDojo est né en Irlande où l'on organise depuis quelques années un "Coolest Projects Awards". Une édition belge existe également depuis 2016 : une collaboration de bénévoles des CoderDojos de Turnhout, Malines et Lier.
+					</p>
+					<p>
+						Plus d'infos sur CoderDojo Belgium vzw sur: <a href="http://www.coderdojobelgium.be" target="_blank">www.coderdojobelgium.be</a>
+					</p>
+					<p>
+						Plus d'infos sur "Coolest Projects" en Irlande sur: <a href="http://www.coolestprojects.org" target="_blank">www.coolestprojects.org</a>.
 						<!--
                         If you want to present your project in Ireland
                         too, you can apply for a <a href="https://coderdojo.com/news/2016/02/10/apply-for-a-travel-bursary-for-coolest-projects-2016/">travel bursary</a>
@@ -1181,13 +1623,13 @@
 							<div class="panel-heading" role="tab" id="heading06_en">
 								<h4 class="panel-title">
 									<a class="collapsed" data-toggle="collapse" data-parent="#accordion_en" href="#collapse06_en" aria-expanded="false" aria-controls="collapse06_en">
-                                Are there prices?
+                                Are there prizes?
                             </a>
 								</h4>
 							</div>
 							<div id="collapse06_en" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading06_en">
 								<div class="panel-body">
-									We will reward everyone for their effort. It is not a competition but we will also additionally give out prices to some projects.
+									We will reward everyone for their effort. It is not a competition but we will also additionally give out prizes to some projects.
 								</div>
 							</div>
 						</div>
@@ -1204,6 +1646,123 @@
 							<div id="collapse07_en" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading07_en">
 								<div class="panel-body">
 									Mail us: <a href="mailto:info@coolestprojects.be">info@coolestprojects.be</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				
+				<!-- FR FAQS -->
+				<div class="col-sm-8" lang="fr">
+					<h3 class="column-title">Faqs</h3>
+					<div class="panel-group" id="accordion_fr" role="tablist" aria-multiselectable="true">
+
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading01_fr">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion_fr" href="#collapse01_fr" aria-expanded="true" aria-controls="collapse01_fr">
+                               Est-ce que je dois apporter quelque chose?
+                            </a>
+								</h4>
+							</div>
+							<div id="collapse01_fr" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading01_fr">
+								<div class="panel-body">
+									Oui, évidemment, ton projet ! Si ton projet est électronique, amène-le. Et si c'est un projet logiciel, prends ton laptop. Tu n'en as pas ? Nous en avons quelques-uns de réserve, mais signale-le quand tu t'inscris !
+								</div>
+							</div>
+						</div>
+
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading02_fr">
+								<h4 class="panel-title">
+									<a class="collapsed" data-toggle="collapse" data-parent="#accordion_fr" href="#collapse02_fr" aria-expanded="false" aria-controls="collapse02_fr">
+                                Je n'ai pas tout fait moi-même. Je peux quand même présenter mon projet ?
+                            </a>
+								</h4>
+							</div>
+							<div id="collapse02_fr" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading02_fr">
+								<div class="panel-body">
+									Oui, évidemment ! Tu peux venir le présenter, tant que tu y as aussi travaillé.
+								</div>
+							</div>
+						</div>
+
+
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading03_fr">
+								<h4 class="panel-title">
+									<a class="collapsed" data-toggle="collapse" data-parent="#accordion_fr" href="#collapse03_fr" aria-expanded="false" aria-controls="collapse03_fr">
+                                C'est gratuit ?
+                            </a>
+								</h4>
+							</div>
+							<div id="collapse03_fr" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading03_fr">
+								<div class="panel-body">
+									Oui, la participation et visitation est gratuite!
+								</div>
+							</div>
+						</div>
+
+
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading04_fr">
+								<h4 class="panel-title">
+									<a class="collapsed" data-toggle="collapse" data-parent="#accordion_fr" href="#collapse04_fr" aria-expanded="false" aria-controls="collapse04_fr">
+                               À partir de quel âge est-ce que je peux participer ? Quel âge est-ce que je dois avoir ?
+                            </a>
+								</h4>
+							</div>
+							<div id="collapse04_fr" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading04_fr">
+								<div class="panel-body">
+									Tous les jeunes de moins de 18 ans peuvent participer!
+								</div>
+							</div>
+						</div>
+
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading05_fr">
+								<h4 class="panel-title">
+									<a class="collapsed" data-toggle="collapse" data-parent="#accordion_fr" href="#collapse05_fr" aria-expanded="false" aria-controls="collapse05_fr">
+                               J'ai construit quelque chose avec mes meilleurs amis. On peut participer en tant qu'équipe ?
+                            </a>
+								</h4>
+							</div>
+							<div id="collapse05_fr" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading05_fr">
+								<div class="panel-body">
+									Le but, c'est de collaborer. Tu peux donc présenter ton projet d'équipe. Une équipe peut se composer de 3 participants au maximum.
+								</div>
+							</div>
+						</div>
+
+
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading06_fr">
+								<h4 class="panel-title">
+									<a class="collapsed" data-toggle="collapse" data-parent="#accordion_fr" href="#collapse06_fr" aria-expanded="false" aria-controls="collapse06_fr">
+                               Et les prix ?
+                            </a>
+								</h4>
+							</div>
+							<div id="collapse06_fr" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading06_fr">
+								<div class="panel-body">
+									Tes efforts seront récompensés dans tous les cas. En outre, nous remettrons plusieurs prix. Ce n'est pas vraiment un concours, c'est surtout un salon où tu pourras présenter tes réalisations.
+								</div>
+							</div>
+						</div>
+
+
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading07_fr">
+								<h4 class="panel-title">
+									<a class="collapsed" data-toggle="collapse" data-parent="#accordion_fr" href="#collapse07_fr" aria-expanded="false" aria-controls="collapse07_fr">
+                                J'ai encore des questions !
+                            </a>
+								</h4>
+							</div>
+							<div id="collapse07_fr" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading07_fr">
+								<div class="panel-body">
+									Envoie un mail à <a href="mailto:info@coolestprojects.be">info@coolestprojects.be</a>
 								</div>
 							</div>
 						</div>
@@ -1227,8 +1786,13 @@
 							<h3>Contacteer ons</h3>
 							<p><a href="mailto:info@coolestprojects.be">info@coolestprojects.be</a></p>
 						</div>
-						<div class="contact-form2" lang="en">
+						<div class="contact-form" lang="en">
 							<h3>Contact us</h3>
+							<p><a href="mailto:info@coolestprojects.be">info@coolestprojects.be</a></p>
+						</div>
+						
+						<div class="contact-form" lang="fr">
+							<h3>Contacte nous</h3>
 							<p><a href="mailto:info@coolestprojects.be">info@coolestprojects.be</a></p>
 						</div>
 					</div>
@@ -1243,10 +1807,6 @@
 	<footer id="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6" lang="nl">
-				</div>
-				<div class="col-sm-6" lang="en">
-				</div>
 				<div class="col-sm-6">
 					<ul class="social-icons">
 						<li><a href="https://github.com/Squarific/CoolestProjectsWebsite" target="_blank"><i class="fa fa-github"></i></a></li>

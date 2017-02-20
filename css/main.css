@@ -19,7 +19,19 @@ body {
 body.nl *[lang=en] {
   display: none;
 }
+body.nl *[lang=fr] {
+  display: none;
+}
 body.en *[lang=nl] {
+  display: none;
+}
+body.en *[lang=fr] {
+  display: none;
+}
+body.fr *[lang=nl] {
+  display: none;
+}
+body.fr *[lang=en] {
   display: none;
 }
 h1,

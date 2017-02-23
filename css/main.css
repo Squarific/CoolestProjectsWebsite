@@ -61,6 +61,8 @@ a:focus {
   margin-right: 5px;
   margin-top: 0px;
   margin-bottom: 25px;
+  max-width:10em;
+  max-height:10em;
 }
 .smallSponsor {
   font-weight: 600;

@@ -778,11 +778,18 @@ ul.nostyle i {
   border-radius: 100px;
   margin-bottom: 20px;
 }
+#awards {
+  padding: 100px 0 50px;
+}
+.award-image {
+	height:1em;
+}
 #register {
   padding: 100px 0 50px;
 }
 #sponsors {
   padding: 100px 0 50px;
+  background: #f5f5f5;
 }
 #info {
   padding: 100px 0 50px;

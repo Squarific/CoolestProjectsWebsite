@@ -781,6 +781,9 @@ ul.nostyle i {
 #awards {
   padding: 100px 0 50px;
 }
+#awards .fa {
+	width:4.5em;
+}
 .award-image {
 	height:1em;
 }

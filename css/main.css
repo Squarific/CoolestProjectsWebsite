@@ -8,6 +8,11 @@ Author URL: http://shapebootstrap.net
 /*************************
 *******Typography******
 **************************/
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   padding-top: 100px;
   background: #F7FAFD;
@@ -16,6 +21,7 @@ body {
   color: #64686d;
   line-height: 26px;
 }
+
 body.nl *[lang=en] {
   display: none;
 }
@@ -56,14 +62,6 @@ a:focus {
   text-decoration: none;
   color: #345e87;
 }
-.sponsor {
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 0px;
-  margin-bottom: 25px;
-  max-width:10em;
-  max-height:10em;
-}
 .smallSponsor {
   font-weight: 600;
   font-size: 16px;
@@ -72,6 +70,10 @@ hr {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #fff;
 }
+.italic {
+  font-style: italic;
+}
+
 /*
 .gradiant {
   background-image: -moz-linear-gradient( 90deg, rgb(44,170,179) 0%, rgb(44,140,179) 100%);
@@ -99,7 +101,7 @@ hr {
   margin-bottom: 50px;
 }
 .section-header .section-title {
-  font-size: 44px;
+  font-size: 2.4em;
   color: #272727;
   text-transform: uppercase;
   position: relative;
@@ -291,16 +293,17 @@ ul.nostyle i {
 }
 #main-slider .slider-inner h2 {
   margin-top: 180px;
-  font-size: 72px;
+  font-size: 3em;
   line-height: 1;
   text-transform: uppercase;
   color: #fff;
   text-shadow: 4px 4px 8px #072333;
+  word-wrap: break-word;
 }
 #main-slider .slider-inner h3 {
   margin-top:0px;
   margin-bottom:45px;
-  font-size: 36px;
+  font-size: 2em;
   line-height: 1;
   text-transform: uppercase;
   color: #fff;
@@ -809,11 +812,9 @@ ul.nostyle i {
 #awards {
   padding: 100px 0 50px;
 }
-#awards .fa {
-	width:4.5em;
-}
 .award-image {
-	height:1em;
+  height:1em;
+  display: inline-block;
 }
 #register {
   padding: 100px 0 50px;
@@ -1067,7 +1068,6 @@ ul.nostyle i {
   width: 100%;
 }
 img.animatie {
-  margin: 25px;
   border: 10px solid;
   border-color: #4278AC;
 }
@@ -1096,3 +1096,34 @@ img.animatie {
 }
 
 
+/**
+ *
+ * Responsive video
+ *
+ */
+.responsive-video {
+  overflow: hidden;
+  position: relative;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.responsive-video > iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+/**
+ *
+ * Image
+ *
+ */
+img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}

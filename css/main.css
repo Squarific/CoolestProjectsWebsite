@@ -1096,3 +1096,26 @@ img.animatie {
 }
 
 
+/**
+ *
+ * Responsive video
+ *
+ */
+.responsive-video {
+  overflow: hidden;
+  position: relative;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.responsive-video iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
+

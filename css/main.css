@@ -72,6 +72,10 @@ hr {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #fff;
 }
+.italic {
+  font-style: italic;
+}
+
 /*
 .gradiant {
   background-image: -moz-linear-gradient( 90deg, rgb(44,170,179) 0%, rgb(44,140,179) 100%);
@@ -810,7 +814,8 @@ ul.nostyle i {
   padding: 100px 0 50px;
 }
 .award-image {
-	height:1em;
+  height:1em;
+  display: inline-block;
 }
 #register {
   padding: 100px 0 50px;
@@ -1106,7 +1111,7 @@ img.animatie {
   height:0;
 }
 
-.responsive-video iframe {
+.responsive-video > iframe {
   left:0;
   top:0;
   height:100%;
@@ -1114,5 +1119,13 @@ img.animatie {
   position:absolute;
 }
 
-
-
+/**
+ *
+ * Image
+ *
+ */
+img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
